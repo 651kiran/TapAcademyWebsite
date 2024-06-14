@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.position{
+    overflow: hidden;
+   top: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+
+.menubar{
+    background-color:rgb(213, 238, 247);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+
+
+  
+}
+
+.phone {
+    list-style-type: none;
+    font-size: 25px;
+    margin-left:80px;
+}
+
+.icon{
+    display: flex;
+    list-style-type: none;
+    margin-right: 82px;
+}
+
+.icon .ic{
+    padding: 0px 35px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.navbar {
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+#image{
+    width: 170px;
+    height: 80px;
+    padding: 6px;
+    margin-left: 80px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li a {
+    color:black;
+    text-align: center;
+    padding: 0px 35px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 82px;
+    transition: border-bottom 0.3s ease;  }
+
+  
+  .navbar ul li a:hover{
+    border-bottom: 4px solid blue;
+    width: 100%;
+    padding-bottom: 6px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+
+  /*---------------------------------------------------------------------------------------------------- */
+
+  .contact{
+    display: flex;
+    margin-top: 150px;
+  }
+
+  .cform{
+    display:flex ;
+    flex-direction: column;
+    width:600px;
+    margin-top: 80px;
+    margin-left: 240px;
+  }
+
+  input{
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+  }
+
+  label,input{
+    font-size: 20px;
+
+  }
+
+  textarea{
+    max-width: 600px;
+    min-width: 600px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  #space{
+    margin-bottom: 30px;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+
+  p{
+    font-size: 25px;
+  }
+
+  button{
+    margin-top: 20px;
+    height: 40px;
+  }
+
+  .detail{
+    background-color: aquamarine;
+    margin: 50px 70px 0px 50px;
+    text-align: center;
+    width: 450px;
+    height: 600px;
+    padding: 50px;
+    color: white;
+    background-color:#164863;
+    margin-bottom: 100px;
+    border-radius: 15px;
+  }
+
+  .sub_detail{
+    margin-top: 20px;
+    
+}
+
+h2{
+    font-size: 30px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+    
+iframe{
+    width: 1100px;
+    height: 600px;
+    border: 2px solid rgb(12, 35, 239);
+}
+
